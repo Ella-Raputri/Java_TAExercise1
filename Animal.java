@@ -11,7 +11,7 @@ public abstract class Animal {
         this.move_method = move_method1;
     }
 
-    public void moving(){}; //will be overridden
+    public abstract void moving();
     public abstract void animalSound();
 
     //getters
