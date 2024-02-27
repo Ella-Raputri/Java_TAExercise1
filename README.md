@@ -2,7 +2,7 @@
 
 **Name:** Ella Raputri
 
-**Class:** L2AC
+**Class:** B2AC
 
 **Student ID:** 2702298154
 
