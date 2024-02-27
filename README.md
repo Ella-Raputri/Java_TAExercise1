@@ -29,7 +29,9 @@ The concept of inheritance can be seen in this where the Bird and Cat classes in
 The concept of encapsulation is similar in meaning to enclosing something in a capsule so that other people can't access it. In this case (in OOP), encapsulation is related to the access modifiers that are given to the attributes of a class. In this code, we can see that the attributes name, weight, total_legs, and move_method are set to be private. In this way, another file (the driver) and the subclasses can't access it directly. We have to use the getters to access those attributes. This is the concept of encapsulation that is implemented in this code.
 
 - **Abstraction** <br>
-The principle of abstraction is to hide certain details (the implementation). Abstraction can be achieved through using the abstract class or interfaces. In this code, I have used the abstract class. The Animal (parent class) is an abstract class, so it can't be instantiated as an object. There are also abstract methods in the Animal class, which are moving() and animalSound(). The implementations of both of them have to be specified in the subclasses as it is an abstract method. I have also implemented a little polymorphism here because I override the moving() and animalSound() methods in the Cat and Bird classes, so that although they have the same name, the implementation is somewhat different. 
+The principle of abstraction is to hide certain details (the implementation). Abstraction can be achieved through using the abstract class or interfaces. In this code, I have used the abstract class. The Animal (parent class) is an abstract class, so it can't be instantiated as an object. There are also abstract methods in the Animal class, which are moving() and animalSound(). The implementations of both of them have to be specified in the subclasses as it is an abstract method.
+
+I have also implemented a little polymorphism here because I override the moving() and animalSound() methods in the Cat and Bird classes, so that although they have the same name, the implementation is somewhat different. 
 
 
 
